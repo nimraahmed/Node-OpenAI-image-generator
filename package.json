@@ -1,0 +1,26 @@
+{
+  "name": "ai-image-generator",
+  "version": "1.0.0",
+  "description": "AI Image generator with Dall-e 2 API and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "AI",
+    "image",
+    "generator",
+    "nodeJS"
+  ],
+  "author": "Nimra Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
