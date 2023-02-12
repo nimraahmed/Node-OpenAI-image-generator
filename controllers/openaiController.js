@@ -6,7 +6,6 @@ const openai = new OpenAIApi(configuration);
 
 const generateImage = async (req, res) => {
   const { prompt, size } = req.body;
-  console.log(req.body);
   const imageSize =
     size === "small" ? "256x256" : size === "medium" ? "512x512" : "1024x1024";
 
